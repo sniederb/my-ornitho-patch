@@ -12,23 +12,13 @@
         android:icon="@drawable/ic_settings_black_24dp"
         android:title="@string/menu_settings" />
 
-    <item android:title="@string/nav_mypatches_header">
+
+    <item
+        android:id="@+id/nav_patches"
+        android:title="@string/nav_mypatches_header">
         <menu>
-            <!-- TODO: how can we add menu items dynamically ? -->
-            <item
-                android:id="@+id/nav_gallery"
-                android:icon="@drawable/ic_menu_gallery"
-                android:title="@string/menu_gallery" />
-            <item
-                android:id="@+id/nav_slideshow"
-                android:icon="@drawable/ic_menu_slideshow"
-                android:title="@string/menu_slideshow" />
-            <item
-                android:id="@+id/nav_tools"
-                android:icon="@drawable/ic_menu_manage"
-                android:title="@string/menu_tools" />
+            <!-- See MainActivity#addNavigationItems for adding menu items dynamically -->
         </menu>
     </item>
-
 
 </menu>

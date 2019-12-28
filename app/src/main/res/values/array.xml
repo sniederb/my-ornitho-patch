@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ornitho_sites">
+        <item>www.ornitho.at</item>
+        <item>www.ornitho.ch</item>
+        <item>www.ornitho.de</item>
+        <item>www.ornitho.lu</item>
+    </string-array>
+</resources>
